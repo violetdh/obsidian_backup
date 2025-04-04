@@ -1,5 +1,5 @@
 # violet's obsidian backup tool
-this is a script i wrote in python to take a folder and back it up daily, with a history going back 7 days. It might also create a monthly backup going back some amount of time, though I'm not sure if I want to do that yet. Maybe like,  6 months, then any number of years? That might be a little excessive, though.
+this is a script i wrote in python to take a folder and back it up daily, with a history going back 7 days.
 
 it takes a specified src folder and copies it to a destination folder, renaming it to the current date. it will keep up to 7 of these in the folder at a time.
 
