@@ -14,4 +14,4 @@ it takes a specified src folder and copies it to a destination folder, renaming 
 because I identified a problem in my life (syncthing also syncs file deletions and I'm scared of losing my obsidian vault) and wanted to solve it, while also flexing my atrophying python muscles a bit.
 - don't solutions already exist?
 
-I'm sure they do, but I wanted to write something to solve it myself. 
+I'm sure they do, but I wanted to write something to solve it myself. Again, atrophying python muscles.
