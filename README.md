@@ -6,7 +6,7 @@ it takes a specified src folder and copies it to a destination folder, renaming 
 this is intended to be run daily as a cron job.
 ## todo:
 - maybe extra monthly copies - not sure how far back i would want these to go, though
-- mayyyybe implement a basic tkinter GUI for funsies that lets you choose the directories
+- mayyyybe implement a basic tkinter GUI for funsies that lets you choose the directories without editing the script itself
 ## faq
 - why bother making this?
 
