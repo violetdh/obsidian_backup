@@ -14,7 +14,11 @@ def copy():
     print(backups)
     if len(backups) >= 7: # checks if 7 or more backups exist
         shutil.rmtree(backup_dir+backups[6]) # deletes the 7th
-    shutil.copytree(src, backup_dir+date) # copies src folder to target folder as current date 
-    print("backup " + date + " done!")
+    if not date in backups:
+        shutil.copytree(src, backup_dir+date) # copies src folder to target folder as current date 
+        print("backup " + date + " done!")
+    else:
+        print("uh oh! that file already exists!")
+        print("try again tomorrow.")
 
 copy()
