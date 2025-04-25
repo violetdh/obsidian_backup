@@ -2,8 +2,10 @@ import shutil
 import os
 from datetime import datetime as dt
 
-src = "../backup_test/source"
-backup_dir = "../backup_test/target/"
+dir = "/externaldrive/projects/obsidian backup/backup_test/"
+
+src = dir+"source"
+backup_dir = dir+"target/"
 
 def copy():
     date = dt.now().date().strftime("%d-%m-%Y") # gets current date as string
