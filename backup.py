@@ -2,7 +2,8 @@ import shutil
 import os
 from datetime import datetime as dt
 
-dir = "/externaldrive/projects/obsidian backup/backup_test/"
+# directory with both source and target directories. you can edit how this works easily if you don't want them in the same place.
+dir = "./backup_test/"
 
 src = dir+"source"
 backup_dir = dir+"target/"
