@@ -16,7 +16,9 @@ def copy():
     backups = [dt.strftime(ts, "%d-%m-%Y") for ts in dates] # converts them back to strings
     print(backups)
     if len(backups) >= 7: # checks if 7 or more backups exist
-        shutil.rmtree(backup_dir+backups[6]) # deletes the 7th
+        to_delete = backups[0]
+        shutil.rmtree(backup_dir + to_delete) # deletes the 7th
+        print(f"deleted oldest backup: {to_delete}")
     if not date in backups:
         shutil.copytree(src, backup_dir+date) # copies src folder to target folder as current date 
         print("backup " + date + " done!")
